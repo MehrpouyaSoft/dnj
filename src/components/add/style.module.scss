@@ -1,0 +1,21 @@
+.send {
+    position: absolute;
+    top: 11px;
+    right: 16px;
+    background: none;
+    padding: 0;
+    background: #2355fa;
+    border: none;
+    color: #FFF;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 4px;
+    outline: none;
+
+    svg {
+        width: 22px;
+        height: 22px;
+    }
+}

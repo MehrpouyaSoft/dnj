@@ -1,0 +1,36 @@
+.box {
+    position: relative;
+    
+    &.reply {
+        &::before {
+            content: "";
+            display: block;
+            width: 3px;
+            position: absolute;
+            left: 45px;
+            top: 70px;
+            bottom: 0;
+            background-color: #eeeded;
+        }
+    }
+
+    .like {
+        background-color: #f4f5fa;
+        padding: 6px 15px;
+        border-radius: 100px;
+        cursor: pointer;
+
+        svg {
+            fill: #909ab4;
+        }
+        
+        &.iLiked {
+            background-color: #235ee7;
+            color: #FFF;
+            
+            svg {
+                fill: #FFF;
+            }
+        }
+    }
+}
